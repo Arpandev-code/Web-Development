@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+        .card{
+            background-color: white;
+            height: 400px;
+            width: 250px;
+            border-radius: 7px;
+        }
+        .image{
+            padding: 5px;
+        }
+        .image img{
+            border-radius: 7px;
+        }
+        .content{
+            padding: 5px;
+        }
+        .content p{
+            color: gray;
+            font-size: 14px;
+        }
+        .capsule{
+            padding: 0 34px 0 10px
+        }
+        .capsule span{
+            border: 1px solid gray;
+            padding: 1px 10px;
+            border-radius: 9px;
+            font-size: 15px;
+            color: gray;
+        }
+        .button{
+            /* padding-top: 3px; */
+           padding-left: 75px;
+        }
+        .button button{
+            padding:9px;
+            border-radius: 17px;
+            border: none;
+            color:blue;
+            background-color: rgb(170, 236, 253);
+            cursor: pointer;
+        }
+        .button button:hover{
+            color:white;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="240" src="lake.jpg" alt="Loading...">
+        </div>
+        <div class="capsule">
+            <span>Lake</span>
+            <span>View</span>
+        </div>
+        <div class="content">
+        <h2>Beautifull Lake</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus aliquam veniam mollitia suscipit sit asperiores nihil voluptatem </p>
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+</body>
+</html>
