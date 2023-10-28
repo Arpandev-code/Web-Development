@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        /*Element Selector*/
+        div{
+            background-color: aqua;
+        }
+        /* Class Selector */
+        .red{
+            background-color: red;
+        }
+        /* ID Selector */
+        #green{
+            background-color: bisque;
+        }
+        /* Child Selector */
+        div > p{
+            color: aqua;
+            background-color: aliceblue;
+        }
+        /* Descendant Selector*/
+        div p{
+            color: rgb(109, 200, 221);
+            background-color: aquamarine;
+        }
+        /* Universal Selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Pseudo Selector */
+        a:visited{
+            color: yellow;
+        }
+        a:active{
+            background-color: aqua;
+        }
+        a:hover{
+            background-color: blueviolet;
+        }
+        p:first-child{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="red">
+        I'm a Div
+    </div>
+    <div>
+        I'm a Div
+    </div>
+    <div id="green">
+        I'm a Div
+    </div>
+    <div>
+        <p>
+            I am Paragraph 
+        </p>
+    </div>
+    <div>
+        <article>
+            In Artical 
+        </article>
+    </div>
+    <a href="https://google.com">Go to Google</a>
+    <a href="https://facebook.com" target="_blank">Go to Facebook</a>
+    <div>
+        <p>
+            I'm the example of first-child
+        </p>
+    </div>
+</body>
+</html>
