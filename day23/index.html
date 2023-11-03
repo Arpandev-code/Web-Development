@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorfull Nav Bar</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        :root{
+            --primary-color:blueviolet;
+            --s-color:rgb(198, 169, 226);
+            --text-color:white;
+        }
+        body{
+            background-color: var(--s-color)
+        }
+        nav{
+            background-color:var(--primary-color);
+            padding: 17px;
+        }
+        ul li{
+            display: inline;
+            padding: 25px;
+            font-weight: bold;
+            color: var(--text-color);
+            font-family: 'Poppins', sans-serif;
+        }
+        li a{
+            color: var(--text-color);
+            text-decoration: none;
+        }
+        ul li a:hover{
+            color: var(--s-color);
+        }
+    </style>
+</head>
+<body>
+    <head>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Service</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+        </nav>
+    </head>
+</body>
+</html>
