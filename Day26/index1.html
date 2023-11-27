@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{
+            padding: 0;
+            margin: 0;
+        } */
+        html, body {
+            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        }
+        .logo img{
+            width: 160px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        .right ul{
+            display: flex;
+            gap: 37px;
+        }
+        ul li{
+            list-style: none;
+        }
+        .right ul li a{
+            text-decoration: none;
+           color: black;
+        }
+       .first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        padding-bottom: 10px;
+        gap: 17px;
+       }
+       .download-1{
+        font-size: 50px;
+       }
+       section p{
+        font-size: 25px;
+        width: 80vw;
+        text-align: center;
+       }
+       .download-btn{
+        background-color: #00b6d1;
+        text-align: center;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 14px;
+        min-height: 48px;
+        min-width: 280px;
+        font-weight: 700;
+        padding: 12px 20px;
+       }
+       .second{
+        max-width: 77vw;
+        margin: auto;
+        padding-top: 60px;
+      }
+       .flex{
+        display: flex;
+        align-items: center;
+        gap:10px;
+       }
+       .download-line{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        font-size: 30px;
+        padding-bottom: 40px;
+       }
+       .version{
+        font-size: 12px;
+        padding-bottom: 25px;
+       }
+       .items{
+        padding: 10px;
+        text-align: center;
+        height: 150px;
+        border-radius: 5px;
+        width: 300px;
+        background-color:#f9f9f9;
+       }
+       .item-lang{
+        font-weight: 700;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 36px;
+       }
+       .button{
+        color: white;
+        font-size: 12px;
+        font-weight: 700;
+        height: 40px;
+        width: 140px;
+        border: none;
+        border-radius: 5px;
+    
+       }
+       .blue{
+        background-color: #00b6d1;
+       }
+       .green{
+        background-color: #00d084;
+       }
+       .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 14px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Dark-logo.png" alt="">
+            </div>
+            <div class="right">
+            <ul>
+                <li><a href="">Products <img src="down.png" alt="" height="10px" width="10px"></a></li>
+                <li><a href="">Pricing <img src="down.png" alt="" height="10px" width="10px"></a></li>
+                <li><a href="">Resource<img src="down.png" alt=""height="10px" width="10px"></a></li>
+                <li><a href="">About us<img src="down.png" alt="" height="10px" width="10px"></a></li>
+                <li><a href=""><img src="tra.jpg" alt="" height="45px" width="45px"></a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="box">
+        <section class="first">
+           <span class="download-1">Download <b> UltraEdit </b>for Windows <a href="https://www.g2.com/products/ultraedit/reviews"><img src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" alt=""></a></span>
+
+        <p>Download and try UltraEdit before you buy it! This download includes the full Windows version of the text editor.
+        </p>
+            <button class="download-btn">
+                DOWNLOAD MAC OR LINUX VERSION
+            </button>
+        </div>
+        </section>
+        <section class="second">
+        <div class="flex">
+            <span class="download-line"><img src="https://www.ultraedit.com/wp-content/uploads/2022/11/UE.png" alt=""> Download UltraEdit</span>
+            <span class="version">v2023.1(released 08/16/2023) | Hotfix</span>
+        </div>
+        <div class="grid">
+            <div class="items">
+                <div class="item-lang">English</div>
+                <button class="button green">
+                    Download 32-bit
+                </button>
+                <button class="button blue">
+                    Download 64-bit
+                </button>
+            </div>
+            <div class="items">
+                <div class="item-lang">English</div>
+                <button class="button green">
+                    Download 32-bit
+                </button>
+                <button class="button blue">
+                    Download 64-bit
+                </button>
+            </div>
+            <div class="items">
+                <div class="item-lang">English</div>
+                <button class="button green">
+                    Download 32-bit
+                </button>
+                <button class="button blue">
+                    Download 64-bit
+                </button>
+            </div>
+            <div class="items">
+                <div class="item-lang">English</div>
+                <button class="button green">
+                    Download 32-bit
+                </button>
+                <button class="button blue">
+                    Download 64-bit
+                </button>
+            </div>
+            <div class="items">
+                <div class="item-lang">English</div>
+                <button class="button green">
+                    Download 32-bit
+                </button>
+                <button class="button blue">
+                    Download 64-bit
+                </button>
+            </div>
+        </div>
+        </section>
+    </main>
+</body>
+</html>

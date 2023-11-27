@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-image: url("assets/images/bg.jpg");
+    height: 80vh;
+    background-position: center center;
+    /* background-repeat: no-repeat; */
+    background-size: max(1200px 100px);
+    position: relative;
+}
+.main .box{
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+}
+.main nav{
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    color: rgb(234, 8, 8);
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+.buttons{
+    position: relative;
+    z-index: 10;
+}
+.buttons .lang{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    height:32px;
+    width:130px ;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.buttons .auth{
+    font-weight: bold;
+    height:32px;
+    width:90px ;
+    background-color:rgb(229,9,20);
+    color:white;
+    border: none;
+    border-radius: 5px;
+}
+
