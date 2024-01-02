@@ -75,3 +75,15 @@ form.addEventListener('submit', (e) => {
 });
 
 ```
+## project 2 solution code
+```javascript
+document.getElementById('clock')
+// let date= new Date()
+// console.log(date.toLocaleTimeString())
+
+setInterval(()=>{
+let date= new Date()
+clock.innerHTML=date.toLocaleTimeString();
+},1000)
+
+```
