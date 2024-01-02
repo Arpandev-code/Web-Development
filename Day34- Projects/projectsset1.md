@@ -5,7 +5,7 @@
 
 # solution code
 
-## project 1
+## project 1 solution code
 
 ```javascript
 const buttons= document.querySelectorAll('.button')
@@ -40,7 +40,7 @@ buttons.forEach((button)=>{
 })
 
 ```
-## project 2 solution
+## project 2 solution code
 
 ```javascript
 const form = document.querySelector('form');
@@ -75,7 +75,7 @@ form.addEventListener('submit', (e) => {
 });
 
 ```
-## project 2 solution code
+## project 3 solution code
 ```javascript
 document.getElementById('clock')
 // let date= new Date()
