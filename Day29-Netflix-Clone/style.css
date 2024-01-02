@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins&display=swap');
 .main{
     background-image: url("assets/images/bg.jpg");
     height: 80vh;
@@ -31,7 +31,7 @@ nav img{
     color: rgb(234, 8, 8);
     width: 150px;
     position: relative;
-    z-index: 10;
+    z-index: 2;
 }
 .buttons{
     position: relative;
@@ -56,4 +56,20 @@ nav img{
     border: none;
     border-radius: 5px;
 }
+.main main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .big{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    font-family:"Poppins";
+}
+
 
