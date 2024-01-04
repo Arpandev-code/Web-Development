@@ -20,14 +20,21 @@ console.log(randomColor());
 let intervelId
 //start Changing Color
 const startChangingColor=function(){
+    if(!intervelId)
+    {
+        intervelId= setInterval(changingColor,2000)
+    }
     function changingColor(){
         document.body.style.backgroundColor=randomColor()
     }
-   intervelId= setInterval(changingColor,2000)
+   
 }
 //stop changing color
 const stopChangingColor=function(){
+    //To stop overridding the setInterval, We need to flash out it after use
+    //it means set intervelId to null(Dereferncing the variable)
     clearInterval(intervelId)
+    intervelId=null;
 }
 
 document.querySelector('#start').addEventListener('click',startChangingColor)
