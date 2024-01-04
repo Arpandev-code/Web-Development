@@ -1,9 +1,3 @@
-## Video Link to Learn Async Theory Part
-[Click Here](https://youtu.be/zgt5oTD3rRc?si=jJeKR2ahYI22a0mV)
-
-## Async Project 1
-
-```javascript
 //Genarate random color
 
 const randomColor=function(){
@@ -32,4 +26,3 @@ const stopChangingColor=function(){
 
 document.querySelector('#start').addEventListener('click',startChangingColor)
 document.querySelector('#stop').addEventListener('click',stopChangingColor)
-```

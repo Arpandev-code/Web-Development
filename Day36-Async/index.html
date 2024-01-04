@@ -6,10 +6,20 @@
     <title>Async</title>
 </head>
 <body>
-    <h2>Javascript</h2>
-    <ul>
-        <li>Synchronous</li>
-        <li>Single Threaded</li>
-    </ul>
+   <h1>Chi Aur Code</h1>
+    <button id="stop">Stop</button>
+    <script>
+        const sayArpandev= ()=>{
+            console.log("Arpandev");
+        }
+        const changeText=()=>{
+            document.querySelector('h1').innerHTML="Flutter & Web Developer"
+        }
+        const changeMe= setTimeout(changeText,2000)
+        document.querySelector('#stop').addEventListener('click',()=>{
+            clearTimeout(changeMe)
+            console.log("STOPPED");
+        })
+    </script>
 </body>
 </html>

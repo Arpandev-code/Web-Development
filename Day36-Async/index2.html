@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async</title>
+</head>
+<body>
+   <h1>Chi Aur Code</h1>
+   <button id="start">Start</button>
+   <button id="stop">Stop</button>
+    <script>
+        const sayDate = function () {
+            console.log("Arpandev", Date.now());
+        }
+
+        let intervelId;
+
+        let start = function () {
+            intervelId = setInterval(sayDate, 2000);
+        }
+
+        let stop = function () {
+            clearInterval(intervelId);
+        }
+
+        document.querySelector('#start').addEventListener('click', start);
+        document.querySelector('#stop').addEventListener('click', stop); 
+    </script>
+</body>
+</html>
