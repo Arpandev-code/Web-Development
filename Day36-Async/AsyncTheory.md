@@ -1,5 +1,7 @@
 ## Video Link to Learn Async Theory Part
 [Click Here](https://youtu.be/zgt5oTD3rRc?si=jJeKR2ahYI22a0mV)
+## Project Link
+[Click Here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
 
 ## Async Project 1
 
@@ -39,4 +41,27 @@ const stopChangingColor=function(){
 
 document.querySelector('#start').addEventListener('click',startChangingColor)
 document.querySelector('#stop').addEventListener('click',stopChangingColor)
+```
+## Project 2
+
+```javascript
+const insert=document.getElementById('insert')
+window.addEventListener('keydown',(e)=>{
+    insert.innerHTML=`
+    <div class='color'>
+    <table>
+  <tr>
+    <th>Key</th>
+    <th>Keycode</th>
+    <th>Code</th>
+  </tr>
+  <tr>
+    <td>${e.key===' '?"Space":e.key}</td>
+    <td>${e.keyCode}</td>
+    <td>${e.code}</td>
+  </tr>
+</table>
+    </div>
+    `
+})
 ```
